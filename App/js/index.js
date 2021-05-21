@@ -14,6 +14,8 @@ xui.Class('App', 'xui.Module',{
                     "a":1,
                     "b":2
                 })
+                .setQueryData({
+                })
                 .beforeInvoke([
                     {
                         "desc":"Busy",
@@ -379,10 +381,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.HTMLButton")
                 .setHost(host,"ctl_htmlbutton2")
                 .setDesc("Alert Test")
-                .setLeft("0.8333333333333334em")
+                .setLeft("0.5333333333333333em")
                 .setTop("0em")
-                .setWidth("8.333333333333334em")
-                .setHeight("2.8333333333333335em")
+                .setWidth("8.60952380952381em")
+                .setHeight("13.104761904761904em")
                 .setZIndex(1002)
                 .setCaption("Alert Test")
                 .onClick([
@@ -2183,10 +2185,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.HTMLButton")
                 .setHost(host,"ctl_htmlbutton163")
                 .setDesc("Insert Items to Tabs")
-                .setLeft("31.666666666666668em")
-                .setTop("23.666666666666668em")
-                .setWidth("8.5em")
-                .setHeight("3em")
+                .setLeft("32.76190476190476em")
+                .setTop("36.95238095238095em")
+                .setWidth("8.076190476190476em")
+                .setHeight("8.914285714285715em")
                 .setCaption("Insert Items to Tabs")
                 .onClick([
                     {
